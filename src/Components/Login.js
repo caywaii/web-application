@@ -44,7 +44,6 @@ export const Login = () => {
           class="img-fluid" alt="Sample image"/>
       </div>
       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-      <hr></hr>
         {successMsg&&<>
         <div className='success-msg'>{successMsg}</div>
         <br></br>
@@ -69,7 +68,6 @@ export const Login = () => {
             <p class="text-center fw-bold mx-3 mb-0">Or</p>
           </div> */}
 
-       <h1> <Link to='home'>CLICK HERE TO GO HOME 'FOR THE MEANTIME HEHEZ'</Link></h1>
           <div data-mdb-input-init class="form-outline mb-4">
           <label class="form-label" for="form3Example3">Email address</label>
             <input type="email" id="form3Example3" class="form-control form-control-lg"
@@ -104,31 +102,7 @@ export const Login = () => {
       </div>
     </div>
   </div>
-  <div
-    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
   
-    <div class="text-white mb-3 mb-md-0">
-      Copyright © 2020. All rights reserved.
-    </div>
-   
-
-  
-    <div>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="#!" class="text-white">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </div>
-  
-  </div>
 </section>
         </div>
     )
